@@ -1,0 +1,60 @@
+
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.tabla1 {
+    border: 2px solid red; 
+}
+
+.tabla1 td {
+    width: 30px;
+    height: 30px;
+    border: none; 
+}
+
+
+.tabla2 {
+    border: 2px solid red;
+}
+
+.tabla2 td {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+.tabla2 .estiloA {
+    border: 2px solid blue;
+}
+
+
+.tabla3 td {
+    width: 60px;
+    height: 40px;
+    border: 1px solid green;
+}
+
+.tabla3 {
+    border: 2px solid green;
+}
+
+.tabla3 .combinación {
+    text-align: center;
+}
+
+.tabla3 .combinación [colspan="2"] {
+    width: 120px;
+}
+
+
+.tabla3 .combinación {
+    text-align: center;
+}
+
+.tabla3 .combinación[colspan="2"] {
+    width: 120px;
+}
